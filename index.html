@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>B2S Embedding</title>
+  </head>
+  <body>
+    <h1>This is an H1</h1>
+    <h2>this is an h2</h2>
+    <div>this text sits within a div</div>
+    <div>my seconds are exceedingly precious</div>
+    <div>DISGUSTINGLY EASY EMBEDDING:</div>
+
+    <script
+      type="module"
+      src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"
+      ;
+    ></script>
+    <tableau-viz
+      id="tableauViz"
+      src="https://public.tableau.com/views/Superstore_embedded_800x800/Overview"
+      toolbar="bottom"
+      width="100%"
+      height="100vh"
+      hide-tabs
+    >
+    </tableau-viz>
+
+    <script src="app.js"></script>
+  </body>
+</html>
