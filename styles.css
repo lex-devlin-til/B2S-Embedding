@@ -1,0 +1,72 @@
+/* 'Chefing up something diabolical' */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a; /* Dark background for contrast */
+  color: #f2f2f2; /* Light text color */
+  margin: 0;
+  padding: 20px;
+  text-align: center; /* Centered text */
+}
+
+h1 {
+  color: #ff4500; /* Fiery orange */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  margin-bottom: 20px; /* More space below */
+}
+
+h2 {
+  color: #ff6347; /* Tomato color */
+  margin: 15px 0; /* More spacing around h2 */
+}
+
+div {
+  margin: 10px 0;
+  background-color: #333; /* Slightly lighter dark for divs */
+  padding: 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.3s; /* Added transform for scale effect */
+}
+
+div:hover {
+  background-color: #444; /* Darker on hover */
+  transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+fieldset {
+  border: 2px solid #ff4500; /* Fiery border */
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto; /* Centered fieldset */
+  background-color: #2a2a2a; /* Background for fieldset */
+  width: fit-content; /* Adjust width to fit content */
+}
+
+legend {
+  font-weight: bold;
+  color: #ff6347; /* Tomato color for legend */
+}
+
+input[type="button"] {
+  background-color: #ff4500; /* Fiery orange */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  cursor: pointer;
+  margin: 10px; /* Space buttons out */
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s; /* Added box-shadow transition */
+}
+
+input[type="button"]:hover {
+  background-color: #ff6347; /* Tomato color on hover */
+  transform: translateY(-3px); /* Lift effect on hover */
+  box-shadow: 0 4px 15px rgba(255, 99, 71, 0.5); /* Shadow for depth */
+}
+
+tableau-viz {
+  border: 2px solid #ff4500; /* Fiery border around the viz */
+  border-radius: 8px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5); /* Deeper shadow for emphasis */
+  margin-top: 20px; /* Space above viz */
+}
